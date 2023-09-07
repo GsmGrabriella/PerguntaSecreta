@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #f5f5f5;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(255,160,230);
+  background: linear-gradient(0deg, rgba(255,160,230,1) 0%, rgba(96,34,195,1) 100%);
+}
+
+.container header {
+  margin-top: 40px;
+}
+
+.question {
+  color: #fff;
+  font-family: 'ADLaM Display', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.congrats {
+  color: #fff;
+  font-family: 'ADLaM Display', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form {
+  margin-top: 20px;
+  width: 80vw;
+  height: 40vh;
+  text-align: center;
+
+}
+
+.form button {
+  position: relative;
+  border: none;
+  background: #6aacf7;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.form button:hover {
+  background: #4c8bf5;
+}
+
+
+.image {
+  width: 180px;
+  height: 180px;
+  margin-botton: 20px;
+}
+
